@@ -1,0 +1,14 @@
+@import './styles/layout';
+@import './styles/navbar';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #c7cde0;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.5rem;
+}
