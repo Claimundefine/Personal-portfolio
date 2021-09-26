@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+import styled from "styled-components";
+import {MainLayout} from '../styles/Layouts';
+import Title from '../Components/Title';
 
 function ContactPage() {
     return (
-        <div>
-            
-        </div>
+        <MainLayout>
+
+            <Title title={'Contact'} span={'Contact'} />
+        </MainLayout>
     )
 }
 
-export default ContactPage
+export default ContactPage;
