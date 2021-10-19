@@ -3,7 +3,7 @@ import Sidebar from './Components/Sidebar';
 import HomePage from "./Pages/HomePage";
 import AboutPage from './Pages/AboutPage';
 import ResumePage from './Pages/ResumePage';
-import PortfolioPage from './Pages/PortfolioPage';
+import ProjectsPage from './Pages/ProjectsPage';
 import ContactPage from './Pages/ContactPage';
 import styled from 'styled-components';
 import { Route, Switch as Switching } from "react-router";
@@ -33,8 +33,8 @@ function App() {
       <Route path="/about" exact>
         <AboutPage />
       </Route>
-      <Route path="/portfolio" exact>
-        <PortfolioPage />
+      <Route path="/projects" exact>
+        <ProjectsPage />
       </Route>
       <Route path="/contact" exact>
         <ContactPage />

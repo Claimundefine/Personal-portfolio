@@ -11,25 +11,28 @@ function ImageSection() {
                 <img src={aboutPic} alt=""/>
             </div>
             <div className="right-content">
-                <h4>I am <span>Justin Wang</span></h4>
+                <h4>Welcome to <span>Justin's</span> website!</h4>
                 <p className="paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, natus quas vero enim 
-                    praesentium delectus est id fugiat ab libero adipisci recusandae at maxime veritatis! 
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, nesciunt.
+                   Hi, I am a software developer that's eager for any opportunity to put myself out there and to gain more experience! I currently have work experience with 
+                   both Mobile and Web Development, but always looking for new opportunities. I have a large interest in both Machine Learning and Finance, and my projects
+                   are on this website and more coming soon, so be sure to check back! In my spare time, I enjoy cooking and dreaming of what to do next. 
+   
+                </p>
+                <p className="paragraph">
+
+                   Come follow me on my journey!
                     
                 </p>
                 <div className="about-info">
                     <div className="info-title">
                         <p>Age</p>
-                        <p>Nationality </p>
-                        <p>Languages </p>
                         <p>Location</p>
+                        <p>Jungle</p>
                     </div>
                     <div className="info">
                         <p>: 20</p>
-                        <p>: Canadian </p>
-                        <p>: English, Chinese </p>
                         <p>: Toronto, Canada</p>
+                        <p>: Kingdom</p>
                     </div>
                 </div>
                 <PrimaryButton title={"Resume"}/>

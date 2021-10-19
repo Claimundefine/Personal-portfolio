@@ -14,7 +14,7 @@ function ContactPage() {
     const location = <LocationOnIcon />
     return (
         <MainLayout>
-            <Title title={'Contact'} span={'Contact'} />
+            <Title title={'Contact (work in progress)'} span={'Contact'} />
             <ContactPageStyled >
             <InnerLayout className={'contact-section'}>
                 <div className="left-content">
@@ -44,7 +44,6 @@ function ContactPage() {
                     </form>
                 </div>
                 <div className="right-content">
-                    <ContactItem title={'Email'} icon={email} cont1={'jjustin.wang@mail.utoronto.ca'} cont2={'jjustin.wangg@gmail.com'} />
                     
                 </div>
             </InnerLayout>
