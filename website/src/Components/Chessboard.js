@@ -34,7 +34,6 @@ const ChessBoardStyled = styled.div`
     display: grid;
     grid-template-columns: repeat(8, 100px);
     grid-template-rows: repeat(8, 100px);
-    margin-top: 5rem;
     width: 800px;
     height: 800px;
     background-color: #779556;

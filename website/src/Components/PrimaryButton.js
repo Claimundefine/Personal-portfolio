@@ -4,7 +4,7 @@ import styled from 'styled-components';
 function PrimaryButton({title}) {
     return (
         <PrimaryButtonStyled>
-            {title}
+            <a target="_blank" rel="noopener noreferrer" href="https://justinjlwangresume.s3.us-east-2.amazonaws.com/Justin+Wang+Resume.pdf">{title}</a>
         </PrimaryButtonStyled>
     )
 }
